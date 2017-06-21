@@ -1,1 +1,1 @@
-design-patterns-nodejs
+Patrones de Diseño en NodeJS.
