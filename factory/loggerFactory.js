@@ -10,7 +10,7 @@ exports.getLogger = function(level) {
             return new LogInfo('Default');
         case 'error':
             return new LogError('Default');
-        case 'error':
+        case 'verbose':
             return new LogVerbose('Default');
         default:
             return null;
