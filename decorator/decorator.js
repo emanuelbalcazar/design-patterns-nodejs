@@ -8,7 +8,7 @@ exports.decorate = function(component) {
         this.component = component;
     }
 
-    // create prototype from object component
+    // create a prototype from object component
     Decorator.prototype = Object.create(proto);
 
     // new implementation
@@ -28,5 +28,5 @@ exports.decorate = function(component) {
         this.component.info(message);
     };
 
-    return new Decorator(component);   // exports Decorator instance
+    return new Decorator(component);   // exports a Decorator instance
 };

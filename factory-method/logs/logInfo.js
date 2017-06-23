@@ -1,10 +1,10 @@
-// Logger solo de mensajes de verbose.
+// logger info
 function Logger(name) {
     this.name = name;
 }
 
 Logger.prototype.log = function(message) {
-    console.log('[verbose] - ' + message);
+    console.log('[info] - ' + message);
 };
 
 module.exports = Logger;

@@ -1,4 +1,4 @@
-// Logger solo de mensajes de error.
+// logger error
 function Logger(name) {
     this.name = name;
 }

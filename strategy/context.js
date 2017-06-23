@@ -1,3 +1,4 @@
+// constructor
 function Context() {
     this.strategy = {};
 }
