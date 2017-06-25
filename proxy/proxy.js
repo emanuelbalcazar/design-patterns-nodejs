@@ -1,5 +1,5 @@
 exports.createProxy = function(subject) {
-    
+
     var proto = Object.getPrototypeOf(subject);
 
     // constructor
